@@ -1,3 +1,3 @@
-Tic-Tac-Toe Game 
+# Tic-Tac-Toe Game 
 
-Have Fun
+Play the tic-tac-toe game :)
