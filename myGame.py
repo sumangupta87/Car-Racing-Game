@@ -13,7 +13,7 @@ gameDisplay=pygame.display.set_mode((display_width,display_height))   #create th
 pygame.display.set_caption('Racing game')         #create the caption
 clock=pygame.time.Clock()                       #create game clock
 
-carImg = pygame.image.load('C:\\Users\\egupsum\\Desktop\\Python\\executable\\programme\\myCarFinal.png')   #load the car image
+carImg = pygame.image.load('C:\\Users\\myCarFinal.png')   #load the car image
 #carImg = pygame.transform.scale(carImg,(100,160))  #if car size is huge add this line to reduce the image and fit in the game
 
 def car(x,y):
@@ -43,7 +43,7 @@ def score_cal(count):
 
 
 def crash():
-    soundObj = pygame.mixer.Sound('C:\\Users\\egupsum\\Desktop\\Python\\executable\\programme\\myGame\\Crash.wav')
+    soundObj = pygame.mixer.Sound('C:\\Users\\Crash.wav')
     soundObj.play()
     time.sleep(0.5)
     message_display('You Crashed')
@@ -69,9 +69,9 @@ def game_loop():
     gameExit = False                                 
 
     while not gameExit:
-        pygame.mixer.music.load('C:\\Users\\egupsum\\Desktop\\Python\\executable\\programme\\Ferrari.wav')  #load the music file
+        pygame.mixer.music.load('C:\\Users\\Ferrari.wav')  #load the music file
         pygame.mixer.music.play(-1, 0.0)        #play the music file,-1 : play infinitely,0.0 - start from 0s position
-        #sound1Obj = pygame.mixer.Sound('C:\\Users\\egupsum\\Desktop\\Python\\executable\\programme\\Ferrari.wav')
+        #sound1Obj = pygame.mixer.Sound('C:\\Users\\Ferrari.wav')
         #sound1Obj.play()
 
 
