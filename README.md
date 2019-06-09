@@ -1,4 +1,4 @@
-# Fun-Game
+# CAR-Racing-Game
 Code for Fun
 
 install pygame,time,random library using pip command
