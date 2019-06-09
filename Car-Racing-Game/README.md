@@ -1,4 +1,4 @@
-#Coding is Fun
+# Coding is Fun
 
 install pygame,time,random library using pip command
 
